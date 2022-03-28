@@ -27,19 +27,19 @@ namespace fans {
         public State c = new State()
         {
             Name = "c",
-            IsAcceptState = true,
+            IsAcceptState = false,
             Transitions = new Dictionary<char, State>()
         };
         public State d = new State()
         {
             Name = "d",
-            IsAcceptState = false,
+            IsAcceptState = true,
             Transitions = new Dictionary<char, State>()
         };
         public State e = new State()
         {
             Name = "e",
-            IsAcceptState = true,
+            IsAcceptState = false,
             Transitions = new Dictionary<char, State>()
         };
 
